@@ -12,11 +12,11 @@ public class FileReadWrite {
     static File fileDirectory = new File(Environment.getExternalStorageDirectory() + "/saves.txt");
     static String filePath;
 
-    public static void writeFile(String info) throws Exception {
+    public static void writeFile(String userData) throws Exception {
         System.out.println(fileDirectory.getPath());
         filePath = fileDirectory.getPath();
-        FileWriter fw = new FileWriter(fileDirectory, true);
-        fw.write(info);
+        FileWriter fw = new FileWriter(fileDirectory, false);
+        fw.write(userData);
         fw.flush();
         fw.close();
         System.out.println("FILE WRITTEN");

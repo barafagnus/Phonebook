@@ -1,18 +1,22 @@
 package ru.vysokov.phonebook;
 
-public class User {
+public abstract class User {
     private int id;
     private String name;
     private String phone;
     private String address;
 
-    User(String name, String phone, String address) {
+    public User(String name, String phone, String address) {
         ENV.ID++;
         this.id = ENV.ID;
         this.name = name;
         this.phone = phone;
         this.address = address;
     }
+    User() {
+    }
+    @Override
+    public abstract String toString();
 
     public int getId() {
         return id;

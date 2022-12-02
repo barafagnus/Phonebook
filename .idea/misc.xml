@@ -3,7 +3,30 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/user/AndroidStudioProjects/Phonebook/app/src/main/res/layout/activity_main.xml" value="0.2640625" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Phonebook/app/src/main/res/drawable-v24/button2.xml" value="0.203" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Phonebook/app/src/main/res/drawable-v24/button_grey_left.xml" value="0.203" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Phonebook/app/src/main/res/drawable-v24/button_grey_right.xml" value="0.203" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Phonebook/app/src/main/res/drawable-v24/button_teal_left.xml" value="0.1" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Phonebook/app/src/main/res/drawable-v24/button_teal_right.xml" value="0.203" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Phonebook/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1095" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Phonebook/app/src/main/res/drawable/button.xml" value="0.2845" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Phonebook/app/src/main/res/drawable/ic_adduser.xml" value="0.248" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Phonebook/app/src/main/res/drawable/ic_avatar.xml" value="0.1195" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Phonebook/app/src/main/res/drawable/ic_back.xml" value="0.1875" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Phonebook/app/src/main/res/drawable/ic_cancel.xml" value="0.2405" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Phonebook/app/src/main/res/drawable/ic_company.xml" value="0.2145" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Phonebook/app/src/main/res/drawable/ic_icon_settings.xml" value="0.141" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Phonebook/app/src/main/res/drawable/ic_ok.xml" value="0.1875" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Phonebook/app/src/main/res/drawable/userInfoBg.xml" value="0.276" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Phonebook/app/src/main/res/drawable/userinfobg.xml" value="0.2" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Phonebook/app/src/main/res/layout/activity_edit_user.xml" value="0.22" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Phonebook/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Phonebook/app/src/main/res/layout/activity_new_user.xml" value="0.1348314606741573" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Phonebook/app/src/main/res/layout/activity_on_click_user.xml" value="0.3921875" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Phonebook/app/src/main/res/layout/activity_useinfo.xml" value="0.2875" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Phonebook/app/src/main/res/layout/item.xml" value="0.33958333333333335" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Phonebook/app/src/main/res/layout/newusercompany.xml" value="0.25" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Phonebook/app/src/main/res/layout/newuserindividual.xml" value="0.1" />
       </map>
     </option>
   </component>
