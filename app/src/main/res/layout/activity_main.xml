@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="#EFEFEF">
 
     <LinearLayout
         android:id="@+id/topLinearLayout"
@@ -31,24 +32,24 @@
         android:id="@+id/linearLayout"
         android:layout_width="match_parent"
         android:layout_height="500dp"
-        android:layout_marginTop="12dp"
-        android:layout_marginLeft="12dp"
-        android:layout_marginRight="12dp"
         android:orientation="vertical"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/topLinearLayout">
 
         <ListView
             android:id="@+id/mainList"
+            android:layout_marginTop="12dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
             android:layout_width="match_parent"
             android:layout_height="match_parent" />
     </LinearLayout>
 
     <LinearLayout
-        android:layout_marginBottom="12dp"
+        android:id="@+id/linearLayout3"
         android:layout_width="match_parent"
-        android:layout_height="52dp"
-        android:background="@color/white"
+        android:layout_height="70dp"
+        android:background="@drawable/optionbar"
         android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent">

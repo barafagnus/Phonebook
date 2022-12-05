@@ -22,13 +22,13 @@
             android:layout_marginLeft="12dp">
         </ImageView>
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="200dp"
             android:layout_height="match_parent"
             android:layout_marginLeft="22dp"
             android:textColor="@color/white"
             android:fontFamily="@font/montserrat_alternates_semibold"
             android:gravity="center_vertical"
-            android:text="Новый пользователь"
+            android:text="Редактирование"
             android:textSize="20dp">
         </TextView>
         <androidx.appcompat.widget.AppCompatButton

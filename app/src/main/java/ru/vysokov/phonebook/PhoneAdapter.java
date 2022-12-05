@@ -7,10 +7,13 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
+import android.widget.ListView;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.constraintlayout.widget.ConstraintLayout;
 
 import java.util.List;
 
@@ -44,16 +47,20 @@ public class PhoneAdapter extends ArrayAdapter<User> {
             imageView.setImageResource(R.drawable.ic_avatar);
         }
 
-        imageView.setOnClickListener(new View.OnClickListener() {
+
+
+        LinearLayout userPosition = (LinearLayout) view.findViewById(R.id.userPosition);
+
+        userPosition.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent userInfoActivity = new Intent(context, UserInfoActivity.class);
                 setUserPos(position);
                 if (users.get(position) instanceof Company) {
                     userInfoActivity.putExtra("entity", "company");
-                    userInfoActivity.putExtra("info1", users.get(position).getName());
-                    userInfoActivity.putExtra("info2", users.get(position).getPhone());
-                    userInfoActivity.putExtra("info3", users.get(position).getAddress());
+                    userInfoActivity.putExtra("info1", ((Company) users.get(position)).getName());
+                    userInfoActivity.putExtra("info2", ((Company) users.get(position)).getPhone());
+                    userInfoActivity.putExtra("info3", ((Company) users.get(position)).getAddress());
                     userInfoActivity.putExtra("info4", ((Company) users.get(position)).getMail());
                     userInfoActivity.putExtra("info5", ((Company) users.get(position)).getActivity());
                     userInfoActivity.putExtra("info6", ((Company) users.get(position)).getStaff());
@@ -61,9 +68,9 @@ public class PhoneAdapter extends ArrayAdapter<User> {
 
                 else if (users.get(position) instanceof Individual) {
                     userInfoActivity.putExtra("entity", "individual");
-                    userInfoActivity.putExtra("info1", users.get(position).getName());
-                    userInfoActivity.putExtra("info2", users.get(position).getPhone());
-                    userInfoActivity.putExtra("info3", users.get(position).getAddress());
+                    userInfoActivity.putExtra("info1", ((Individual) users.get(position)).getName());
+                    userInfoActivity.putExtra("info2", ((Individual) users.get(position)).getPhone());
+                    userInfoActivity.putExtra("info3", ((Individual) users.get(position)).getAddress());
                     userInfoActivity.putExtra("info4", ((Individual) users.get(position)).getAge());
                     userInfoActivity.putExtra("info5", ((Individual) users.get(position)).getEducation());
                     userInfoActivity.putExtra("info6", ((Individual) users.get(position)).getProfession());
